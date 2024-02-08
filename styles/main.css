@@ -293,3 +293,27 @@ header .hero .info p {
     justify-content: center;
     gap: 10px;
 }
+
+.demo {
+    background-color: var(--silver);
+    padding: 32px 0;
+}
+.demo h1 {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 32px;
+    color: var(--black);
+    text-align: center;
+}
+.demo button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    margin: 0 auto
+}
+.demo button img {
+    overflow: hidden;
+    color: #FFFFFF
+}
+
