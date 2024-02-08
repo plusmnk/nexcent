@@ -40,6 +40,12 @@ h3 {
     font-size: 28px;
     line-height: 36px;
 }
+h4 {
+    font-weight: 600;
+    color: var(--d-grey);
+    font-size: 20px;
+    line-height: 28px;
+}
 .p2 {
     font-size: 16px;
     line-height: 24px;
@@ -206,4 +212,39 @@ header .hero .info p {
     align-items: flex-start;
     flex-direction: row;
     column-gap: 16px;
+}
+
+.banner {
+    padding: 32px 0;
+    background-color: var(--silver);
+}
+.banner .container {
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    column-gap: 70px;
+}
+.banner .img-box img {
+    border-radius: 8px;
+}
+.banner .container .info p:first-child {
+    font-weight: 500;
+    color: var(--grey);
+    margin-bottom: 16px;
+}
+.banner .container .info h4 {
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+.banner .container .info .customers {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .container .info .customers h4 {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
 }
