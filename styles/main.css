@@ -174,3 +174,36 @@ header .hero .info p {
 .secondary .hero .info p {
     margin-bottom: 32px;
 }
+
+.helping {
+    width: 100%;
+    background-color: var(--silver);
+    padding: 64px 0;
+}
+.helping .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: auto;
+}
+.helping .info h2 {
+    margin-bottom: 8px;
+}
+.helping .info h2 span {
+    color: var(--primary);
+}
+.helping .container .counters {
+    display: grid;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 30px;
+}
+.helping .container .counters .item {
+    padding-right: 25px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    column-gap: 16px;
+}
