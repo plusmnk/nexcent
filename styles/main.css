@@ -248,3 +248,48 @@ header .hero .info p {
     align-items: center;
     column-gap: 8px;
 }
+
+.marketing {
+    padding: 48px 0;
+}
+.marketing .info {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.marketing .info h2 {
+    color: var(--d-grey);
+    margin-bottom: 10px;
+}
+.marketing .cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 75px;
+}
+.marketing .cards .card {
+    width: 317px;
+    background-color: var(--silver);
+    border-radius: 8px;
+    margin: 0 20px;
+    padding: 16px;
+    height: 100%;
+    box-shadow: 0 8px 16px rgba(171,190,209,0.4);
+    text-align: center;
+}
+.marketing .cards .card h4:first-child {
+    margin-bottom: 16px;
+    color: var(--grey);
+}
+.marketing .cards .card a,
+.marketing .cards .card a>h4 {
+    color: var(--primary) !important;
+    text-align: center;
+}
+.marketing .cards .card a h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
