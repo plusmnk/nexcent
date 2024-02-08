@@ -24,6 +24,30 @@ h1 {
     font-size: 64px;
     line-height: 76px;
 }
+h2 {
+    font-weight: 600;
+    color: var(--d-grey);
+    font-size: 36px;
+    line-height: 44px;
+}
+h3 {
+    font-weight: 600;
+    color: var(--d-grey);
+    font-size: 28px;
+    line-height: 36px;
+}
+.p2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--grey);
+}
+.p3 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--grey);
+}
 button {
     font-weight: 400;
     font-size: 18px;
@@ -69,7 +93,6 @@ header nav .login button {
     border-radius: 6px;
     font-size: 18px;
 }
-
 header .hero {
     padding: 96px 144px;
     display: flex;
@@ -84,9 +107,66 @@ header .hero .info h1 span {
     color: var(--primary);
 }
 header .hero .info p {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    color: var(--grey);
+    margin-bottom: 32px;
+}
+
+.secondary {
+    padding: 45px 144px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.secondary .our-clients h2,
+.secondary .manage h2 {
+    margin-bottom: 8px;
+}
+.secondary .our-clients p,
+.secondary .manage p {
+    margin-bottom: 15px;
+}
+.secondary .our-clients .clients {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondary .manage .items {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.secondary .manage .items .item {
+    width: 299px;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(171,190,209,0.2);
+}
+.secondary .manage .items .item .img {
+    margin-bottom: 16px;
+}
+.secondary .manage .items .item h3 {
+    margin-bottom: 8px;
+}
+.secondary .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+.secondary .hero .info {
+    width: 600px;
+    text-align: left;    
+}
+.secondary .hero .info h2 {
+    margin-bottom: 16px;
+}
+.secondary .hero .info p {
     margin-bottom: 32px;
 }
