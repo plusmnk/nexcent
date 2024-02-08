@@ -3,16 +3,90 @@
 :root {
     /* colors */
     --primary: #4CAF4F;
+    --secondary: #263238;
     --white: #fff;
     --black: #263238;
     --grey: #717171;
     --d-grey: #4D4D4D;
     --silver: #F5F7FA;
 }
-
 * {
+    margin: 0;
+    padding: 0;
     text-decoration: none;
-    box-sizing: none;
     outline: none;
     font-family: 'Montserrat', serif;
+}
+
+h1 {
+    font-weight: 600;
+    color: var(--d-grey);
+    font-size: 64px;
+    line-height: 76px;
+}
+button {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 14px 32px;
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+a {
+    font-size: 18px;
+}
+
+header {
+    background-color: var(--silver);
+}
+header nav {
+    padding: 22px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav .link:not(:first-child) {
+    margin-left: 40px;
+}
+header nav .links a {
+    color: var(--secondary);
+    font-weight: 400;
+}
+header nav .links a:hover {
+    text-decoration: underline;
+}
+header nav .login a {
+    margin-right: 20px;
+    color: var(--primary);
+}
+header nav .login a:hover {
+    text-decoration: underline;
+}
+header nav .login button {
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+header .hero {
+    padding: 96px 144px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+header .hero .info h1 {
+    margin-bottom: 16px;
+}
+header .hero .info h1 span {
+    color: var(--primary);
+}
+header .hero .info p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--grey);
+    margin-bottom: 32px;
 }
