@@ -76,7 +76,9 @@ header {
     background-color: var(--silver);
 }
 header nav {
-    padding: 22px 120px;
+    padding: 22px 0;
+}
+header nav .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -104,7 +106,9 @@ header nav .login button {
     font-size: 18px;
 }
 header .hero {
-    padding: 96px 144px;
+    padding: 96px 0;
+}
+header .hero .container {
     display: flex;
     gap: 100px;
     align-items: center;
@@ -121,13 +125,15 @@ header .hero .info p {
 }
 
 .secondary {
-    padding: 45px 144px;
+    padding: 45px 0;
     box-sizing: border-box;
     background-color: var(--white);
+    text-align: center;
+}
+.secondary .container {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    text-align: center;
 }
 .secondary .our-clients h2,
 .secondary .manage h2 {
