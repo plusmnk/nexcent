@@ -18,6 +18,10 @@
     font-family: 'Montserrat', serif;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
 h1 {
     font-weight: 600;
     color: var(--d-grey);
