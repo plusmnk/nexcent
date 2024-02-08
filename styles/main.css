@@ -296,7 +296,7 @@ header .hero .info p {
 
 .demo {
     background-color: var(--silver);
-    padding: 32px 0;
+    padding: 32px 0 50px 0;
 }
 .demo h1 {
     margin: 0 auto;
@@ -317,3 +317,80 @@ header .hero .info p {
     color: #FFFFFF
 }
 
+footer {
+    background-color: var(--black);
+    padding: 64px 0;
+}
+footer .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+footer .left p {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: var(--silver);
+}
+footer .left .links {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 16px;
+}
+footer .left .links a {
+    font-size: 24px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(171,190,209,0.2);
+    border-radius: 50px;
+    color: #fff;
+}
+footer .left .links a:hover {
+    background-color: rgba(171,190,209,0.15);
+}
+footer .right {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    column-gap: 100px;
+}
+footer .right .item {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+}
+footer .right .item h4 {
+    color: #fff;
+    margin-bottom: 24px;
+}
+footer .right .item a {
+    color: var(--silver);
+    font-size: 16px;
+}
+footer .right .item a:not(:first-child) {
+    margin-top: 12px;
+}
+footer .right .item:last-child input {
+    margin-top: 11px;
+    border: 1px solid rgba(171,190,209,0.4);
+    border-radius: 8px;
+    width: 250px;
+    padding: 11px 12px;
+    background-color: rgba(171,190,209,0.4);
+    color: var(--silver);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+footer .right .item:last-child input::placeholder {
+    color: var(--silver);
+}
+footer .right .item:last-child button {
+    padding: 9px 25px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
